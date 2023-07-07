@@ -1,0 +1,43 @@
+:root {
+  --primary: purple;
+  --gray: #888;
+
+  --card-widht: 320px;
+  --image-widht: calc(var(--card-widht) / 1.5); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, purple, rgb(206, 113, 206));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: var(--card-widht);
+  background-color: #FFF;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 3px 6px rgb(0, 0, 0, 0.1);
+  transition: 0.4s;
+}
+
+
+.card .image {
+  position: relative;
+  width: 100%;
+  max-width: var(--image-widht);
+  height: var(--image-widht);
+  border-radius: 50%;
+}
