@@ -1,5 +1,5 @@
 :root {
-  --primary: purple;
+  --primary: #885F89;
   --gray: #888;
 
   --card-width: 320px;
@@ -15,7 +15,7 @@
 
 main {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom right, purple, rgb(206, 113, 206));
+  background-image: linear-gradient(to bottom right, #7A8193, #F1CDDB);
   display: flex;
   align-items: center;
   justify-content: center;
